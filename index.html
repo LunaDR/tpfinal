@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP Web: Final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+
+
+  <body>
+
+    <div class="container">
+
+        <header>
+            <img src="img/hanselygretel.png" alt="una imagen de la aventura" class="adaptable"> 
+            <h1 id="inicio" class="padding">Trabajo Práctico Final: Hansel y Gretel</h1>
+         </header>
+
+        
+        <nav>
+              
+          <div class="d-grid gap-2 col-8 mx-auto ">
+          
+            <button class="btn btn-primary boton" type="button"><a href="#desarrollador" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Desarrollador</a></button>
+            <button class="btn btn-primary boton" type="button"><a href="#bitacora" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Bitácora</a></button>
+            <button class="btn btn-primary boton" type="button"><a href="#juego" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">El Juego</a></button>
+            
+          </div>
+
+
+        </nav>
+
+        <article>
+            
+            <p class="padding">Esta pagina web esta dedicada al Trabajo Práctico Final de la materia Tecnología multimedial 1 del año 2023.</p>
+
+            <h2 id="desarrollador" class="padding"><u>Desarrollador</u></h2>
+
+            <a href="#inicio"><button type="button" class="btn btn-outline-danger">Volver</button></a>
+
+            <p class="padding">Mi nombre es Luna De Rito, soy de la comisión 5 de Tobias Albirosa y en este TP Final voy a mostrar mi Aventura Gráfica completa unida con un juego de la misma temática. Si bien se podia elegir trabajar en grupos de a dos, este trabajo se realizó individualmente.</p>
+            <p>La historia elegida es Hansel y Gretel, escrita por los Hermanos Grimm, a partir de esta creamos una aventura grafica con varios finales y en base a esto un juego, ambos desarrollados en p5.js y Processing.</p>
+            <p>A continuación una pequeña muestra de lo que fue mi proceso y el resultado del mismo!</p>
+
+
+            <h2 id="bitacora" class="padding"><u>Bitácora</u></h2>
+
+            <a href="#inicio"><button type="button" class="btn btn-outline-danger">Volver</button></a>
+
+            <h4 class="padding">Inicios</h4>
+            <p>En el comienzo del Trabajo Practico número 3 tuvimos que elegir de un listado de opciones un cuento clasico para realizar una aventura gráfica al estilo de los viejos cuentos "Elije tu propia aventura", el cual se desarrolló en Processing. La historia debía poseer al menos 12 pantallas y 3 finales diferentes, estar presente el flujo principal del cuento/novela seleccionado/a. Cada pantalla debia tener: Texto narrativo, imagen de la historia y uno o mas zonas de acción para avanzar con la historia.  Al llegar a cualquiera de los finales, se debia permitir volver al inicio y comenzar nuevamente, tambien una pantalla de créditos con los datos del alumno y el autor de la obra.</p>
+            <p class="padding">Con estas consignas arme un diagrama para comenzar a visualizar mi aventura gráfica: 
+                
+                <div>
+                <img src="img/diagrama.png" alt="una imagen del diagrama" class="border adaptabledos padding"></p>
+                </div>
+           
+            <p class="padding">En base a esto comence a desarrollar las imágenes con las herramientas proporcionadas, en mi caso elegi utilizar Craiyon. Una página para creación de imagenes con una IA:</p>
+
+            <a href="https://www.craiyon.com/" class="link-danger" target="_blank"><button class="tarjetas"> Pagina a Craiyon </button></a>
+
+            <p class="padding">A continuación un ejemplo de algunas imagenes que genere para el desarrollo del Trabajo Práctico:</p>
+            
+            <div id="carouselExampleFade" class="carousel slide carousel-fade paddingdos">
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/casa.jpeg" class="d-block w-100" alt="una imagen de la casa">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="img/hygycasa.jpeg" class="d-block w-100" alt="otra imagen de la casa mas hansel y gretel">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="img/gretel.jpeg" class="d-block w-100" alt="una imagen de gretel dentro de la casa">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <h4 class="padding">Trabajo Práctico numero 5</h4>
+
+            <a href="#inicio"><button type="button" class="btn btn-outline-danger">Volver</button></a>
+
+            <p class="padding">En este trabajo práctico tuvimos que crear una aplicación básica que comience a aprovechar el potencial de la programación orientada a objetos, a partir de un conflicto de la Aventura Gráfica realizada, desarrollado con p5.js en Processing.</p>
+            <p>Al tener mi historia elegida me base en el conflicto de Hansel y Gretel intentando escapar de la bruja malvada.</p>
+            <p>En esta parte del Trabajo Práctico, ademas de enfocarme en el codigo, tambien me enfoque en la parte de diseño:</p>
+
+            
+            <div class="card-group tarjetas">
+                <div class="card tarjetas">
+                  <img src="img/hanselygretel2.png" class="card-img-top" alt="pixel art de hansel y gretel">
+                  <div class="card-body">
+                    <h5 class="card-title">Hansel y Gretel</h5>
+                    <p class="card-text">Esta es la imagen que representa al jugador en nuestro juego.</p>
+                  </div>
+                </div>
+                <div class="card tarjetas">
+                  <img src="img/bruja.png" class="card-img-top" alt="pixel art de la bruja">
+                  <div class="card-body">
+                    <h5 class="card-title">La bruja malvada</h5>
+                    <p class="card-text">Aqui vemos representada a la bruja malvada de la cual deben escapar.</p>
+                  </div>
+                </div>
+                <div class="card tarjetas">
+                  <img src="img/caldero.png" class="card-img-top" alt="pixel art de un caldero">
+                  <div class="card-body">
+                    <h5 class="card-title">Caldero</h5>
+                    <p class="card-text">Esta es la imagen que se ve para reiniciar el juego.</p>
+                  </div>
+                </div>
+              </div>
+
+              
+               
+              <h4 class="padding">Complicaciones</h4>
+
+              <a href="#inicio"><button type="button" class="btn btn-outline-danger">Volver</button></a>
+
+              <p class="padding">Dentro de este TP Final, mi mayor complicación fueron los botones interactivos, los cuales se usan para avanzar, retroceder o reiniciar la historia y, ademas, para llegar al juego. En lugar de cambiar la imagen y el texto cuando se apretaba una vez, hacia que se moviera todo en simultáneo sin las pausas necesarias, no dejando ver correctamente la historia. Gracias a la investigación y las herramientas que me brindaron en clase como Clases, Objetos, Funciones, contadores y demas recursos en p5.js, pude hacer funcionar los "botones" como queria y poder llegar a moverme en mi aventura a gusto y asi, poder llegar al juego desarrollado.</p>
+
+              <p class="padding"><strong>El desarrollo de esta página web fue un desafío en si mismo.</strong></p>
+
+
+              <h2 id="juego" class="padding"><u>El Juego</u></h2>
+
+              <a href="#inicio"><button type="button" class="btn btn-outline-danger">Volver</button></a>
+
+              <p class="padding">Dentro del juego podrán ver las instrucciones y detalles de cómo jugar!</p>
+              <p>Les presento algunos spoilers de como se ve el juego:</p>
+              <img src="img/juego.png" alt="una imagen del juego" class="adaptabledos">
+              <p class="padding">Al final de la pagina podran ver el boton que te llevará al juego!</p>
+              <img src="img/juegouno.png" alt="otra imagen dentro del juego" class="adaptabledos">
+              <p class="padding">Sin mas preámbulo, quiero dejarles los resultados de este recorrido por la materia Tecnología multimedial I, donde aprendi a programar en Processing y p5.js:</p>
+
+              <a href="tpfinal/index.html" target="_blank"><button class="tarjetas">Juego</button></a>
+
+              
+
+              <p class="padding">Gracias por llegar hasta acá!</p>
+      
+  
+        </article>
+
+        
+
+      </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
+  <footer class="footer">
+    
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>UNA PÁGINA HECHA CON GANAS DE UN FINAL FELIZ DE TECNO I !</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+         <cite title="Source Title">Luna De Rito</cite>
+      </figcaption>
+    </figure>
+  </footer>
+
+</html>

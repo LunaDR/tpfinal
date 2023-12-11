@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=DotGothic16&family=Tomorrow&display=swap');
+
+body{
+    background: #ffffff url(img/fondo.png) center center/contain repeat
+}
+
+h1, h2, h4{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+p{
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.container {
+    background-color: rgb(22, 22, 22);
+    color: rgb(211, 17, 17);
+    padding-top: 10px;
+    text-align: center;
+}
+
+.form-select{
+    background-color: rgb(22, 22, 22);
+    color: red;
+}
+
+.tarjetas{
+    font-family: 'Tomorrow', sans-serif;
+    background-color: rgb(32, 31, 31);
+    color: rgb(212, 11, 11);
+
+    box-shadow: 7px 6px 10px 2px #000000;
+}
+
+.boton{
+    font-family: 'Tomorrow', sans-serif;
+    background-color: rgb(41, 38, 38);
+    color: red;
+    box-shadow: 7px 6px 10px 2px #0f0f0f;
+    
+    --bs-btn-border-color: var(--bd-black-bg);
+    --bs-btn-hover-bg: #{shade-color($bd-red, 10%)}; 
+    --bs-btn-active-bg: #{shade-color($bd-black, 20%)};
+}
+    
+.adaptable{
+    width: 100%;
+    height: auto;
+}
+
+.adaptabledos{
+    width: 70%;
+    height: auto;
+}
+
+footer{
+    background-color: rgb(8, 8, 8);
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.padding{
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.paddingdos{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
